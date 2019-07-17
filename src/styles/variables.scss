@@ -1,0 +1,35 @@
+//Base Colors
+
+$white: #fff;
+$separator-color: #ccc;
+$legend-color: #0073b1;
+$danger: tomato;
+$success: green;
+
+
+//Form Colors
+$form-section-bgcolor:    #fff;
+$text-box-color: #dbe0e2;
+$placeholder-color: #6d7578;
+$button-text-color: $white;
+$button-bgcolor: #0073b1;
+$button-disabled-color: #fff;
+$button-disabled-bgcolor: #ccc;
+$button-disabled-border-color: #999;
+
+//Font Stacks
+$font-url--primary:      'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap';
+$font-url--secondary:    'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap';
+
+//Font Families
+$font-family--primary:   'Open Sans', sans-serif;
+$font-family--secondary: 'Roboto Slab', serif;
+
+//Font Weights
+$font-weight--light:      300;
+$font-weight--medium:     400;
+$font-weight--bold:       600;
+$font-weight--ultra-bold: 800;
+
+//Transition:
+$main-transition: 0.3s linear;

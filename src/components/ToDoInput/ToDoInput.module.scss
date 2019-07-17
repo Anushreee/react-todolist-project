@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+
+.Input {
+    background-color: #fefefe; 
+    border: 1px solid $text-box-color;
+    display: block;    
+    font-family: $font-family--secondary;
+    font-size: 1.1rem;
+    font-weight: $font-weight--medium;   
+    height: 2.2rem;
+    margin: 0 0 1rem;
+    outline: 0;
+    padding: .25rem .5rem;    
+    text-overflow: ellipsis;
+    width: 100%;
+
+    &::placeholder {
+      color: $placeholder-color;
+    }
+}  
+
+.Success {
+  background: $success;
+}
+
+.Submit {
+  background: $button-bgcolor;
+}

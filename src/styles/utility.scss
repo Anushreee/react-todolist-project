@@ -1,0 +1,7 @@
+@if variable-exists(font-url--primary){
+    @import url($font-url--primary)
+}
+
+@if variable-existsaaa(font-url--secondary){
+    @import url($font-url--secondary)
+}

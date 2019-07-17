@@ -1,0 +1,18 @@
+
+@import '../../styles/variables.scss';
+
+.Lists {
+    margin: 0;
+    
+}
+
+h2 {
+    margin: 4rem 0 2rem;
+    border-bottom: 1px solid #ccc;
+    font-family: $font-family--secondary;
+}
+
+.Clear {
+    background: $danger;
+    margin-top: 2rem;
+}

@@ -1,0 +1,30 @@
+
+@import '../../styles/variables.scss';
+
+.List {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.Title {
+    font-size: 1.5rem;
+    font-weight: $font-weight--medium;
+}
+
+.ButtonIcon {
+    font-size: 20px;
+    margin-left: 1rem;
+    border-width: 0;
+    cursor: pointer;
+    fill: $white;
+}
+
+.Danger {
+    color: $danger;
+}
+
+.Success {
+    color: $success;
+}

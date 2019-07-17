@@ -1,0 +1,44 @@
+
+@import './styles/variables.scss';
+@import './styles/mixins.scss';
+
+
+.App {
+    margin: 0px auto;
+    max-width: 500px;
+}
+
+form {
+  padding: 2rem 1rem;  
+  margin: 10px auto;
+}
+
+.form-section {
+  background: $form-section-bgcolor; 
+  padding: 0 1rem;
+
+  @include mq(medium) {
+    padding: 0 6rem;
+  }
+
+  @include mq(large) {
+    padding: 0 2.2rem;
+  }
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+ 
+
+  legend {  
+    color: $legend-color;
+    font-family: $font-family--secondary;
+    font-weight: $font-weight--bold;
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+    padding: 1rem 0 .16rem;
+    width: 100%;
+  }
+}
